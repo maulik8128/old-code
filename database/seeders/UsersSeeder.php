@@ -39,6 +39,6 @@ class UsersSeeder extends Seeder
         });
         $role= Role::where('name','Admin')->first();
         $role->givePermissionTo($permissions);
-
+ ///testt
     }
 }
